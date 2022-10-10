@@ -1,0 +1,74 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  flex: 0.25;
+  height: 100vh;
+  background-color: #2f3135;
+}
+
+.sidebarTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #2f3135;
+  color: #fff;
+  border-bottom: 3px solid #26282c;
+}
+
+.sidebarChannels {
+  flex: 1;
+}
+
+.sidebarAddChannel:hover {
+  color: #fff;
+}
+
+.sidebarChannelsHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #2f3135;
+  color: gray;
+}
+
+.sidebarHeader {
+  display: flex;
+  align-items: center;
+}
+
+.sidebarVoice, .sidebarProfile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: gray;
+  background-color: #2f3135;
+  padding: 10px;
+  border-top: 1px solid gray;
+}
+
+.sidebarVoiceInfo, .sidebarProfileInfo {
+  flex: 1;
+  padding: 10px;
+}
+
+.sidebarVoiceIcon {
+  color: #4fb185;
+}
+
+.sidebarVoiceInfo > h3 {
+  color: #4fb185;
+}
+
+.sidebarVoiceInfo > p {
+  font-size: smaller;
+}
+
+.sidebarVoiceIcons *, .sidebarProfileIcons * {
+  padding: 10px;
+}
+
+.sidebarProfileInfo > h3 {
+  color: #fff;
+}
